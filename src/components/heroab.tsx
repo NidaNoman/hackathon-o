@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Heroab = () => {
   return (
@@ -19,7 +20,7 @@ const Heroab = () => {
 
       {/* Right Image */}
       <div className="flex-1">
-        <img
+        <Image
           src="/path-to-your-image.jpg"
           alt="Hero Image"
           className="w-full max-w-[550px] rounded-lg"

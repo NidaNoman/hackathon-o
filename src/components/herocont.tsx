@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ContactSection = () => {
   return (
@@ -39,7 +40,7 @@ const ContactSection = () => {
 
       {/* Right Image */}
       <div className="relative">
-        <img
+        <Image
           src="/contact-image.jpg"
           alt="Contact Us"
           className="rounded-lg shadow-lg w-full max-w-md"
