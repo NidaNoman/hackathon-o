@@ -1,5 +1,5 @@
 
-"use client"
+"use client";
 import Image from "next/image";
 export default function BestsellerProducts() {
     // Data for 8 products

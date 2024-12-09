@@ -1,7 +1,7 @@
-
+import Image from 'next/image';
 
 import React from 'react';
-import Image from 'next/image';
+import { ImGlass } from 'react-icons/im';
 
 const EditorsPick = () => {
   return (
@@ -17,6 +17,7 @@ const EditorsPick = () => {
             src="/boy-pic.jpg"
             alt="Men"
             className="w-full h-auto rounded-md"
+         
           />
           <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity rounded-md flex items-center justify-center">
             <span className="text-white font-bold text-lg">MEN</span>
@@ -27,6 +28,7 @@ const EditorsPick = () => {
               src="/boy-pic-2.jpg"
               alt="Men Alternate"
               className="w-full h-auto rounded-md"
+        
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity rounded-md flex items-center justify-center">
               <span className="text-white font-bold text-lg">MEN </span>
@@ -40,6 +42,8 @@ const EditorsPick = () => {
             src="/girl-pic.jpg"
             alt="Women"
             className="w-full h-auto rounded-md"
+            width={300}
+            height={300}
           />
           <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity rounded-md flex items-center justify-center">
             <span className="text-white font-bold text-lg">WOMEN</span>
